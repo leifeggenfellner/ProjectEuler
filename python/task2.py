@@ -8,5 +8,5 @@ def sumEvenFibonacci(num1, num2, limit) -> list[int]:
 
     return sum(number for number in evenFibonacciNumbers)
 
-
-print(sumEvenFibonacci(1, 2, 4000000))
+if __name__ == "__main__":
+    print(sumEvenFibonacci(1, 2, 4000000))

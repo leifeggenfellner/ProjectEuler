@@ -4,4 +4,5 @@ def sumSquareDifference() -> int:
 
     return abs(sumOfSquares - squareOfSum)
 
-print(sumSquareDifference())
+if __name__ == "__main__":
+    print(sumSquareDifference())

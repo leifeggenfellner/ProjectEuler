@@ -33,4 +33,5 @@ def countPrimeNumbers(primeNumbers, N) -> int:
         if count == N:
             return i
 
-print(getNthPrimeNumber(10001))
+if __name__ == "__main__":
+    print(getNthPrimeNumber(10001))

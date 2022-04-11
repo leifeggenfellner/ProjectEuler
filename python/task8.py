@@ -13,5 +13,5 @@ def largestProductInSeries(seriesFile) -> int:
             largest = total
 
     return largest
-
-print(largestProductInSeries("./inc/task8.txt"))
+if __name__ == "__main__":
+    print(largestProductInSeries("./inc/task8.txt"))

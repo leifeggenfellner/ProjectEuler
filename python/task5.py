@@ -16,5 +16,6 @@ def smallestMultiple():
         else:
             number += 10
             division = dict.fromkeys(division, 0)
- 
-print(smallestMultiple())
+
+if __name__ == "__main__":
+    print(smallestMultiple())

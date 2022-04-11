@@ -15,4 +15,5 @@ def divis5(number):
 def getSum():
     return sum(i for i in range(1000) if (divis3(i) or divis5(i)))
 
-print(getSum())
+if __name__ == "__main__":
+    print(getSum())
