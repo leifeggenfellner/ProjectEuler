@@ -15,5 +15,5 @@ def largestPrimeFactor(number) -> int:
 
     return int(max(factors))
 
-
-print(largestPrimeFactor(600851475143))
+if __name__ == "__main__":
+    print(largestPrimeFactor(600851475143))

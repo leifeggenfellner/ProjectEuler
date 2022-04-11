@@ -9,4 +9,5 @@ def largestPalindromeProduct() -> int:
 
     return largestPalindrome
 
-print(largestPalindromeProduct())
+if __name__ == "__main__":
+    print(largestPalindromeProduct())
