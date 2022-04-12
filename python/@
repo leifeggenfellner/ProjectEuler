@@ -1,5 +1,0 @@
-def largestProductInSeries(series) -> int:
-with open("./inc/task8.txt", "r") as series:
-    data = series.read().replace("\n", "")
-    
-    
