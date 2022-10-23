@@ -1,6 +1,3 @@
-from math import sqrt
-
-
 def largestPrimeFactor(number) -> int:
     factors = []
     divisor = 2
@@ -10,10 +7,12 @@ def largestPrimeFactor(number) -> int:
             number /= divisor
         divisor += 1
         if divisor ** 2 > number:
-            if number > 1: factors.append(number)
+            if number > 1:
+                factors.append(number)
             break
 
     return int(max(factors))
+
 
 if __name__ == "__main__":
     print(largestPrimeFactor(600851475143))
