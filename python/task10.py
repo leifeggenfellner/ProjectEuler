@@ -6,7 +6,7 @@ def makeComposite(prime: list[int], x: int) -> None:
     prime[int(x / 64)] |= (1 << ((x >> 1) & 31))
 
 
-def bitWiseSieve(n: int) -> tuple[int]:
+def bitwiseSieve(n: int) -> tuple[int]:
     prime = [0 for i in range(int(n / 64) + 1)]
     primes = [2]
 
@@ -31,7 +31,7 @@ def bitWiseSieve(n: int) -> tuple[int]:
 
 def main() -> None:
     n = 2000000
-    primes = bitWiseSieve(n)
+    primes = bitwiseSieve(n)
     print(sum(primes))
 
 
